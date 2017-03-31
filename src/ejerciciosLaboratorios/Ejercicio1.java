@@ -8,20 +8,20 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 		int number = 10;
 		
+		int[] numberArray = new int[number];
+		
 		Scanner s = new Scanner(System.in);
 		
-		int[] nro = forma1(number, s);
+		int[] nro = forma1(numberArray, s);
 		
 		s.close();
 		
 		show(nro);
 	}
 	
+	private static int[] forma1(int[] nroArray, Scanner s){
 	
-	private static int[] forma1(int number, Scanner s){
-		int[] nroArray = new int[number];
-		
-		for (int i = number-1; i >= 0; i--) {
+		for (int i = nroArray.length-1; i >= 0; i--) {
 			System.out.println("Insert numbers");
 			String dato = s.nextLine();
 			nroArray[i] = Integer.parseInt(dato);

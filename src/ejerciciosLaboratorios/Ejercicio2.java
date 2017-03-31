@@ -8,24 +8,25 @@ public class Ejercicio2 {
 	public static void main(String[] args) {
 		int number = 20;
 		
+		int[] nroArray = new int[number];
+		
 		Scanner s = new Scanner(System.in);
 		
-		int[] nro = forma1(number, s);
+		int[] nro = forma1(nroArray, s);
 		
 		s.close();
 		
 		ejerciciosLaboratorios.Ejercicio1.show(nro);
 	}
 	
-	public static int[] forma1(int number, Scanner s){
-		int[] nroArray = new int[number];
+	public static int[] forma1(int[] nroArray, Scanner s){
 		
 		int limit = get_limit(s);
 		
 		boolean greater;
 		int index = 0;
 		
-		for (int i = 0; i < number; i++) {
+		for (int i = 0; i < nroArray.length; i++) {
 			
 			System.out.println("Insert numbers");
 			String dato = s.nextLine();
