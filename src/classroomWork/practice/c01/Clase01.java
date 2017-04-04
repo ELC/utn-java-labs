@@ -1,4 +1,4 @@
-package trabajoEnClase;
+package classroomWork.practice.c01;
 
 public class Clase01 {
 	// Fields (variables)

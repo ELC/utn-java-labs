@@ -1,4 +1,4 @@
-package trabajoEnClase;
+package classroomWork.practice.c02;
 
 import java.util.ArrayList;
 
@@ -47,6 +47,7 @@ public class ClaseP02_1 {
 		}
 	}
 	
+	@SuppressWarnings("unused")
 	private static void mostarAlternative(ArrayList<Integer> nros) {
 		for (int i=0; i <nros.size();i++){
 			System.out.println(nros.get(i));

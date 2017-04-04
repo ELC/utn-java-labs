@@ -1,4 +1,4 @@
-package trabajoEnClase;
+package classroomWork.practice.c02;
 
 public class ClaseP02_2 {
 	

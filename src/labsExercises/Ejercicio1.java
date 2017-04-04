@@ -1,4 +1,4 @@
-package ejerciciosLaboratorios;
+package labsExercises;
 
 //Enunciado https://github.com/utnfrrojava/java2016/blob/master/ejercicios/readme.md
 import java.util.Scanner;

@@ -1,7 +1,6 @@
-package ejerciciosLaboratorios;
+package labsExercises;
 
 import java.util.Scanner;
-import ejerciciosLaboratorios.Ejercicio1;
 
 public class Ejercicio2 {
 	
@@ -16,7 +15,7 @@ public class Ejercicio2 {
 		
 		s.close();
 		
-		ejerciciosLaboratorios.Ejercicio1.show(nro);
+		labsExercises.Ejercicio1.show(nro);
 	}
 	
 	public static int[] forma1(int[] nroArray, Scanner s){
