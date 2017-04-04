@@ -16,6 +16,10 @@ public class Prueba {
 		Especie bichoTipo = new Especie();
 		bichoTipo.setNombreEspecie("Marsian");
 		et.setQueEspecie(bichoTipo);
+		
+		System.out.println(et.getNombre());
+		System.out.println(et.getOrigen().getDenomicacion());
+		System.out.println(et.getQueEspecie().getNombreEspecie());
 
 	}
 
