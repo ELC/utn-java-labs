@@ -2,10 +2,15 @@ package labsExercises.ejercicio5.logic;
 
 import java.util.ArrayList;
 
-import labsExercises.ejercicio5.entities.Persona;
+import labsExercises.ejercicio5.entity.Persona;
 
 public class CtrlABMCPersona {
-	private ArrayList<Persona> personas = new ArrayList<>();
+	private ArrayList<Persona> personas; 
+	
+	public CtrlABMCPersona(){
+		personas = new ArrayList<>();
+		personas.add(new Persona("12", "Juan", "Perley", true));
+	}
 	
 	public void createPersona(Persona p){
 		personas.add(p);
@@ -17,7 +22,7 @@ public class CtrlABMCPersona {
 	
 	public Persona retrievePersona(Persona p){
 		for (Persona persona : personas) {
-			if (persona.getDNI().equals(p.getDNI())){
+			if (persona.equals(p)){
 				return persona;			
 			}
 		}

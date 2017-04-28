@@ -10,14 +10,11 @@ public class MyClass {
 		this.nombre = nombre;
 	}
 	
-	private static MyClass myself;
+	private static MyClass myself = new MyClass();
 	
 	private MyClass(){}
 	
 	public static MyClass getInstance(){
-		if (myself == null){
-			myself = new MyClass();
-		}
 		return myself;
 	}
 }
