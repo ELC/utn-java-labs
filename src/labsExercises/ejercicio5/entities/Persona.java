@@ -12,12 +12,6 @@ public class Persona {
 	    }
 	    return false;
 	}
-
-	public Persona(){}
-	
-	public Persona(String dni){
-		this.DNI = dni;
-	}
 	
 	public String getNombre() {
 		return nombre;
@@ -43,7 +37,4 @@ public class Persona {
 	public void setHabilitado(boolean habilitado) {
 		this.habilitado = habilitado;
 	}
-	
-	
-
 }
