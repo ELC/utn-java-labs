@@ -24,10 +24,10 @@ public class DataPersona {
 					pers.add(p);
 				}			
 			}
-			return pers;
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		return pers;
 	}
 	
 }
