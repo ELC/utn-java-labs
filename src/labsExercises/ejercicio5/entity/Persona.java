@@ -39,8 +39,8 @@ public class Persona {
 	public String getDNI() {
 		return DNI;
 	}
-	public void setDNI(String dNI) {
-		DNI = dNI;
+	public void setDNI(String i) {
+		DNI = i;
 	}
 	public boolean isHabilitado() {
 		return habilitado;
@@ -48,4 +48,5 @@ public class Persona {
 	public void setHabilitado(boolean habilitado) {
 		this.habilitado = habilitado;
 	}
+
 }
